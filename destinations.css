@@ -1,0 +1,53 @@
+header{
+    position: static; /* override the shared style by setting it to the default value)*/
+    background: linear-gradient(45deg, rgba(188, 235, 232, 0.3),rgba(6, 164, 154, 0.757));
+}
+main{
+    margin: 0 auto;
+}
+#gallery{
+    padding: 20px 0%;
+    width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 50px;
+}
+li:nth-of-type(3){
+    grid-column: 1 / span 2;
+}
+li:nth-of-type(10){
+    grid-column: 1 / span 2;
+}
+#gallery li{
+    display: flex;
+    background-color: rgba(124, 123, 123,0.2);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0),0.2;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 10px;
+}
+#gallery li img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+.item-content{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.actions{
+    text-align: right;
+}
+.actions a{
+    color: rgb(22, 211, 228);
+    padding: 6px;
+    text-shadow: none;
+    border-radius: 3px;
+}
+.actions a:hover{
+    color: rgba(22, 211, 228, 0.614);
+}

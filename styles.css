@@ -1,0 +1,19 @@
+#sec2{
+    background-color: aquamarine;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rect1{
+    width: 400px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;  
+}
+.rect1 h1{
+    color: red;
+    text-align: center;
+}
+.rect1 p{
+    text-align: justify;
+}
