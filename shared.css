@@ -48,56 +48,7 @@ ul a{
 ul a:hover{
     color: rgba(255, 255, 255, 0.7);
 }
-/* Hamburger Button */
-.menu-btn{
-    width: 3rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    display: none;
-}
-.menu-btn span{
-    width: 100%;
-    height: 3px;
-    background-color: black;
-}
-#side-drawer{
-    width: 50%;
-    height: 20%;
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-#side-drawer:target{
-    display: block;
-}
-#side-drawer header{
-    height: 6rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; /* to make them on the same level-So align items along the cross axis*/
-    padding: 0 18%;
-}
-#side-drawer ul{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 0;
-    padding: 4rem 8rem;
-}
-#side-drawer li{
-    width: 6rem;
-    background-color: rgba(235, 241, 243, 0.2);
-    padding: 0.5rem 2rem;
-    margin-bottom: 0.5rem;
-}
-#side-drawer a{
-    font-size: 1.3rem;
-    color: rgb(58, 56, 56);
-    font-style: italic;
-} 
+
 #background{
     /* Ocean Image */
     height: 50rem;
@@ -188,11 +139,4 @@ footer li{
 footer img{
     height: 100%;
     width: 100%;
-}
-
-@media (max-width: 48rem) {
-    .navlist {display: none;}
-    #rect-contect {width: 75%;}
-    #trips {flex-direction: column;}
-    .menu-btn{display: flex;}
 }

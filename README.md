@@ -1,5 +1,6 @@
 # Travel-Agency-Repository
-Created using HTML5 ,and CSS3 to build a responsive, user-friendly web application. In order to emphasize some core concepts and technologies such as:
-- Handling document flow and positioning elements.
+A user-friendly web application created using HTML5,and CSS3, in order to emphasize some core concepts and technologies such as:
+- Document flow and positioning elements.
+- Flexbox and Grid CSS technologies.
 - Handling margin collapsing.
-- Using Flexbox and Grid CSS technologies.
+
